@@ -1,0 +1,31 @@
+@import "./geral.css";
+
+/*NAV*/
+@import "./nav.css";
+
+/*HERO*/
+@import "./hero.css";
+
+/*SECTIONS*/
+@import "./sections.css";
+
+/*SERVICE*/
+@import "./service.css";
+
+/*SOBRE*/
+@import "./sobre.css";
+
+/*CLIENTES*/
+@import "./clientes.css";
+
+/*ORÇAMENTO*/
+@import "./orcamento.css";
+
+/*FOOTER*/
+@import "./footer.css";
+
+/*WHATSAPP*/
+@import "./whatsapp.css";
+
+/*TOAST*/
+@import "./toast.css";

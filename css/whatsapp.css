@@ -1,0 +1,38 @@
+.float-wpp {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 200;
+  background: #25d366;
+  border: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s;
+  animation: wppPulse 2.5s infinite;
+}
+
+.float-wpp:hover {
+  transform: scale(1.1);
+}
+
+@keyframes wppPulse {
+  0%,
+  100% {
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 35px rgba(37, 211, 102, 0.7);
+  }
+}
+
+.float-wpp svg {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}

@@ -1,0 +1,55 @@
+.servicos {
+  background: var(--navy2);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2rem;
+  transition:
+    border-color 0.2s,
+    transform 0.2s,
+    background 0.2s;
+  cursor: default;
+}
+
+.service-card:hover {
+  border-color: var(--accent);
+  background: rgba(46, 127, 212, 0.06);
+  transform: translateY(-4px);
+}
+
+.service-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(46, 127, 212, 0.15);
+  border: 1px solid rgba(46, 127, 212, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+service-name {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.service-desc {
+  font-size: 0.88rem;
+  color: var(--gray);
+  line-height: 1.7;
+}
